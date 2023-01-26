@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clubes.Criar">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation= "vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation= "vertical"
+            android:id="@+id/llContainer">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:onClick="trocarParaLogin"
+                android:text="Login"></Button>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:onClick="trocarParaRegister"
+                android:text="Registar"></Button>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
